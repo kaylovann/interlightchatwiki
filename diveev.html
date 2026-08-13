@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дивеев Дмитрий Викторович — WIKI INTERLIGHT</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f6f8;
+            color: #202122;
+        }
+
+        header {
+            background: #202122;
+            color: white;
+            padding: 25px 20px;
+        }
+
+        header a {
+            color: #c8ccd1;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .profile {
+            background: white;
+            border: 1px solid #c8ccd1;
+        }
+
+        .profile-header {
+            display: flex;
+            gap: 30px;
+            padding: 30px;
+            border-bottom: 1px solid #eaecf0;
+        }
+
+        .profile-photo {
+            width: 280px;
+            height: 350px;
+            object-fit: cover;
+            flex-shrink: 0;
+            background: #eaecf0;
+        }
+
+        .profile-title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .profile-title h1 {
+            font-size: 32px;
+            margin: 0 0 12px;
+            line-height: 1.2;
+        }
+
+        .status {
+            color: #54595d;
+            font-size: 15px;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .info-row {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            padding: 14px 0;
+            border-bottom: 1px solid #eaecf0;
+            line-height: 1.6;
+        }
+
+        .info-label {
+            font-weight: bold;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            font-size: 22px;
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 8px;
+        }
+
+        .section p {
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px 20px;
+            color: #72777d;
+        }
+
+        @media (max-width: 700px) {
+            .profile-header {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .profile-photo {
+                width: 100%;
+                height: 380px;
+            }
+
+            .profile-title h1 {
+                font-size: 26px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .info-row {
+                grid-template-columns: 1fr;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <a href="./index.html">← Вернуться в WIKI INTERLIGHT</a>
+</header>
+
+<main>
+
+    <article class="profile">
+
+        <div class="profile-header">
+
+            <img
+                class="profile-photo"
+                src="./IMG_5533.jpeg"
+                alt="Дивеев Дмитрий Викторович"
+            >
+
+            <div class="profile-title">
+                <h1>Дивеев Дмитрий Викторович</h1>
+                <div class="status">Участник</div>
+            </div>
+
+        </div>
+
+        <div class="content">
+
+            <div class="info-row">
+                <div class="info-label">Дата рождения</div>
+                <div>20 января 2006 года</div>
+            </div>
+
+            <div class="section">
+                <h2>Биография</h2>
+                <p>
+                    Родился в небольшом городке Тейково в Ивановской области. Перед карантином в 2019 году всей семьей перебрались в столицу. Обучается в Российском Университете Дружбы Народов (РУДН) на юридическом факультете. Работает банковским специалистом компании Сбер.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Интересные факты</h2>
+                <p>
+                    В июле 2026 года украинские спецслужбы предприняли попытку вывезти Дмитрия и ещё нескольких человек за границы России, но операция сорвалась на КПП Узбекистана. Дима был доставлен домой целым и невредимым.
+                </p>
+            </div>
+
+        </div>
+
+    </article>
+
+</main>
+
+<footer>
+    WIKI INTERLIGHT © 2026
+</footer>
+
+</body>
+</html>
